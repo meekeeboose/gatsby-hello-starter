@@ -4,13 +4,12 @@ import { Link } from "gatsby"
 import Header from "./components/header"
 import Footer from "./components/footer"
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <div>
       <Header />
-      <h1>Hello.</h1>
-      <h2>I'm Ronald, a full-stack developer living in beautiful Dumaguete.</h2>
-
+      <h1>About me</h1>
+      <p>I am who I am.</p>
       <p>
         Need a developer? <Link to="/contact">Contact me</Link>
       </p>
@@ -19,4 +18,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default AboutPage
