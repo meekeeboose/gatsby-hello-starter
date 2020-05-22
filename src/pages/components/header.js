@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header>
       <h1>
-        <a href="#">Mediavil</a>
+        <a href="/">Mediavil</a>
       </h1>
       <nav>
         <ul>
