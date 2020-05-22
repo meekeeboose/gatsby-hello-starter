@@ -10,5 +10,14 @@ module.exports = {
     title: "Full-Stack Bootcamp!",
     author: "Mediavil Playground",
   },
-  plugins: ["gatsby-plugin-sass"],
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
+  ],
 }
